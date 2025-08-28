@@ -10,9 +10,9 @@ public class Palindromenumber{
             rev = rev*10+n%10;
             n=n/10;
         }
-        if(original==rev){
+        if (original==rev) {
             System.out.println(original + " is a palindrome");
-        }else{
+        } else {
             System.out.println(original + " is not a palindrome");
         }
         sc.close();
