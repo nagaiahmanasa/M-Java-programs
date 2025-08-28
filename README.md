@@ -66,3 +66,45 @@ Enter a number: 3
 
 Enter a number: 6
 6 is an even number
+
+## 3) PrimeNumber
+### Problem
+Check whether a number is prime.
+### Logic
+- A number is Prime if it is greater than 1 and divisible only by 1 and itself.
+- Check divisibility from 2 to n/2.
+- if divisible, it is not prime. Otherwise, prime.
+### Code
+```
+import java.util.Scanner;
+public class PrimeNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+        boolean isPrime = true;
+        if (n <= 1) {
+            isPrime = false;
+        } else {
+            for (int i = 2; i <= n / 2; i++) {
+                if (n % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+        }
+        if (isPrime) {
+            System.out.println(n + " is a prime number");
+        } else {
+            System.out.println(n + " is not a prime number");
+        }
+        sc.close();
+    }
+}
+```
+### Output
+Enter a number: 6
+6 is not a prime number
+
+Enter a number: 5
+5 is a prime number
