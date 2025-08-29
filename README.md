@@ -1,6 +1,6 @@
 # M-Java-programs
 This repository contains basic java programs like even/odd, prime, palindrome, reversed, etc.
-## 1) Palindrome.java
+## 1) PalindromeCheck.java
 ### Problem
 Check whether a given number is palindrome or not.
 ### Logic
@@ -37,7 +37,7 @@ Enter a number: 121
 Enter a number: 123
 123 is not a palindrome
 
-## 2) EvenOdd.java
+## 2) EvenOddCheck.java
 ### Problem
 Check whether a number is even or odd.
 ### Logic
@@ -67,7 +67,7 @@ Enter a number: 3
 Enter a number: 6
 6 is an even number
 
-## 3) PrimeNumber
+## 3) PrimeNumberCheck.java
 ### Problem
 Check whether a number is prime.
 ### Logic
@@ -108,3 +108,5 @@ Enter a number: 6
 
 Enter a number: 5
 5 is a prime number
+
+
