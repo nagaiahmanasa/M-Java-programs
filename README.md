@@ -110,3 +110,65 @@ Enter a number: 5
 5 is a prime number
 
 
+## 4)SumNatural.java
+### Problem
+Find the sum of the first n natural numbers using for loop.
+### Logic
+- Start with sum=0.
+- Run a loop from 1 to n.
+- In each step,add the current number i to sum.
+- Finally, print sum.
+### Code
+```java
+import java.util.Scanner;
+public class SumNatural{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter n terms: ");
+        int n=sc.nextInt();
+        int i,sum=0;
+        for(i=0;i<=n;i++){
+            sum+=i;
+        }
+        System.out.println("sum of first " + n + " natural numbers = " + sum);
+        sc.close();
+    }
+}
+```
+### Output
+Enter n terms: 5
+sum of 5 natural numbers = 15
+
+Enter n terms: 7
+sum of 7 natural numbers = 28
+
+
+## 5) Factorial.java
+### Problem
+Find the factorial of a number n.
+### Logic
+- Factorial of n(denoted as n!)= n*(n-1)*(n-2)....*1.
+- Example: 5!=5*4*3*2*1= 120.
+### Code
+```java
+import java.util.Scanner;
+public class Factorial {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int n=sc.nextInt();
+        int i,fact=1;
+        for(i=1;i<=n;i++){
+            fact=fact*i;
+        }
+        System.out.println("Factorial of " + n + " = " + fact);
+        sc.close();
+    }
+}
+```
+### Output
+Enter a number: 5
+Factorial of 5 = 120
+
+Enter a number: 3
+Factorial of 3 = 6
