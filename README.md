@@ -34,8 +34,6 @@ public class Palindromenumber{
 Enter a number: 121
 121 is a palindrome
 
-Enter a number: 123
-123 is not a palindrome
 
 ## 2) EvenOddCheck.java
 ### Problem
@@ -64,8 +62,7 @@ public class Evenodd{
 Enter a number: 3
 3 is an odd number
 
-Enter a number: 6
-6 is an even number
+
 
 ## 3) PrimeNumberCheck.java
 ### Problem
@@ -106,8 +103,7 @@ public class Primenumber {
 Enter a number: 6
 6 is not a prime number
 
-Enter a number: 5
-5 is a prime number
+
 
 
 ## 4)SumNatural.java
@@ -139,8 +135,7 @@ public class SumNatural{
 Enter n terms: 5
 sum of 5 natural numbers = 15
 
-Enter n terms: 7
-sum of 7 natural numbers = 28
+
 
 
 ## 5) Factorial.java
@@ -170,5 +165,4 @@ public class Factorial {
 Enter a number: 5
 Factorial of 5 = 120
 
-Enter a number: 3
-Factorial of 3 = 6
+
